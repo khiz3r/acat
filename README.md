@@ -62,7 +62,7 @@ root@root:~$ acat file.txt
 
 #### Install dependency:
 ```bash
-go install github.com/khiz3r/acat
+go install github.com/khiz3r/acat@latest
 ```
 #### Make global path (optional):
 ```bash

@@ -1,4 +1,4 @@
-module acat
+module github.com/khiz3r/acat
 
 go 1.25.0
 

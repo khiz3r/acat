@@ -62,21 +62,7 @@ root@root:~$ acat file.txt
 
 #### Install dependency:
 ```bash
-go get golang.org/x/term
-```
-#### Clone repository:
-```bash
-git clone https://github.com/Shaikh-Khizer/acat.git
-cd acat
-```
-#### Initialize module:
-```bash
-go mod init acat
-go mod tidy
-```
-#### Build
-```bash
-go build -o acat
+go install github.com/khiz3r/acat
 ```
 #### Make global path (optional):
 ```bash
